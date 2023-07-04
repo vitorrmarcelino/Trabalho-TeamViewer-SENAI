@@ -11,12 +11,14 @@ body{
 }
 
 header{
+    position: fixed;
+    width: 100vw;
     height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 4vw 0px 4vw;
+    padding-left: 30px;
 }
 
 header img{
@@ -33,6 +35,7 @@ div#btn-header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 60px;
 }
 
 .bxs-right-arrow-alt{
