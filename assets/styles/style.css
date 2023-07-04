@@ -49,9 +49,11 @@ div#btn-header{
     border-radius: 15px;
 }
 
+#video{
+    width: 500px;
+}
+
 .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-
