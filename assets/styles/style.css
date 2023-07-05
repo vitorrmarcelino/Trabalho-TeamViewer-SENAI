@@ -23,12 +23,12 @@ header img{
     height: 25px;
 }
 
-div#btn-header{
+#btn-header{
     font-size: 1.2em;
     font-weight: bolder;
     color: #050A52;
     border: 1px solid #050A52;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 12px 15px 12px 15px;
     display: flex;
     flex-direction: row;
@@ -47,13 +47,14 @@ div#btn-header{
 
 #btn-header:hover{
     background-color: rgb(221, 221, 221);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 80px 100px 0px 100px;
 }
 
 #video{
@@ -65,8 +66,25 @@ div#btn-header{
     text-align: left;
 }
 
+.textop{
+    padding-top: 30px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
 .huge{
     font-size: 3.2em;
     padding-top: 20px;
+}
+
+.btn{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 12px 15px 12px 15px;
+    width: 100px;
+    margin-top: 30px;
 }
 
