@@ -25,6 +25,21 @@ header img{
     height: 25px;
 }
 
+nav{
+    padding-right: 15vw;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.1em;
+}
+
+nav a:hover{
+    color: rgb(84, 84, 84);
+}
+
 #btn-header{
     font-size: 1.2em;
     font-weight: bolder;
