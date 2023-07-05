@@ -11,12 +11,14 @@ body{
 }
 
 header{
+    top: 0;
+    position: sticky;
     height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 7vw;
 }
 
 header img{
@@ -33,7 +35,7 @@ header img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 7vw;
 }
 
 .bxs-right-arrow-alt{
@@ -48,13 +50,14 @@ header img{
 #btn-header:hover{
     background-color: rgb(221, 221, 221);
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 100px 0px 100px;
+    margin: 80px 7vw 0px 7vw;
 }
 
 #video{
@@ -88,3 +91,12 @@ header img{
     margin-top: 30px;
 }
 
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #151c7b;
+    transition: all 0.5s ease-in-out;
+}
