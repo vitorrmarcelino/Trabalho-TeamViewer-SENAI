@@ -11,8 +11,6 @@ body{
 }
 
 header{
-    position: fixed;
-    width: 100vw;
     height: 70px;
     background-color: white;
     display: flex;
@@ -47,16 +45,28 @@ div#btn-header{
     text-decoration: none;
 }
 
-#link-btn:hover{
+#btn-header:hover{
     background-color: rgb(221, 221, 221);
     border-radius: 15px;
-}
-
-#video{
-    width: 500px;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+#video{
+    width: 600px;
+}
+
+.conteudo{
+    color: white;
+    text-align: left;
+}
+
+.huge{
+    font-size: 3.2em;
+    padding-top: 20px;
+}
+
