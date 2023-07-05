@@ -7,35 +7,86 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="assets/javascript/script.js"></script>
 </head>
-<body>
+<body id="home">
     <header>
-        <a href="https://www.teamviewer.com/latam/" target="_blank"><img src="assets/img/logo-teamviewer-completa.svg"></a>
+        <a href="#home" class="scroll"><img src="assets/img/logo-teamviewer-completa.svg"></a>
         <a href="#" id="link-btn">
             <nav>
-                <a href="#">História</a>
-                <a href="#">Compatibilidade</a>
-                <a href="#">Licença</a>
-                <a href="#">Instalação</a>
+                <a href="#historia" class="scroll">História</a>
+                <a href="#usuarios" class="scroll">Usuários</a>
+                <a href="#" class="scroll">Licença</a>
+                <a href="#" class="scroll">Instalação</a>
             </nav>
             <a href="#" class="btn-link">
             <div id="btn-header"><p>Conheça os Planos</p><i class='bx bxs-right-arrow-alt'></i></div>
         </a>
     </header>
     <main>
-        <div class="container">
+        <div class="container" style="padding-top: 20px; padding-bottom: 0px;">
             <div class="conteudo">
                 <h1>Trabalho sobre o TeamViewer</h1>
                 <h1 class="huge">É hora de Conexão <br>
                     remota!</h1>
-                    <a href="" class="btn-link">
+                    <a href="#saibamais" class="btn-link scroll">
                         <div class="btn"><p>Saiba Mais</p></div>
                     </a>
-                    <p class="textop">Quer aprender um pouco mais sobre o TeamViewer? <br>Vamos lá!</p>
+                    <p id="first-p">Quer aprender um pouco mais sobre o TeamViewer? <br>Vamos lá!</p>
             </div>
                 <video id="video" autoplay loop muted>
                     <source src="assets/videos/animacao-inicial.webm" type="video/webm">
                   </video>
+        </div>
+        <section id="saibamais">
+            <h1 class="titulo-centro" style="color: white; padding-top: 150px;">TeamViewer, a plataforma do momento!</h1>
+            <div class="container">
+                <div class="img-text">
+                    <img src="assets/img/icon-efficient-bicolor.svg" alt="">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt et rat</p>
+                </div>
+                <div class="img-text">
+                    <img src="assets/img/icon-secure-bicolor.svg" alt="">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt et rat</p>
+                </div>
+                <div class="img-text">
+                    <img src="assets/img/icon-use-bicolor.svg" alt="">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt et rat</p>
+                </div>
+            </div>
+        </section>
+        <div class="fundo-branco" id="historia">
+            <h1 class="titulo-centro">É Hora da História!</h1>
+            <h1 class="titulo-centro">Onde surgiu o software de controle remoto <br> mais confiável do Mundo?</h1>
+            <div class="container" style="padding-bottom: 0px;">
+                <img src="assets/img/people-working.jpg">
+                <div class="text">
+                    <h2>Rossmanith GmbH</h2>
+                    <p><strong>Equipe com sede em Uhingen, Alemanha.</strong></p>
+                    <p> lançou a primeira versão do software TeamViewer em 2005, na época ainda com base no projeto VNC.</p>
+                    <p>O provedor de serviços de TI queria evitar viagens desnecessárias para a sede de clientes e executar remotamente tarefas como instalar softwares.</p>
+                </div>
+            </div>
+            <div class="container" style="padding-bottom: 0px;">
+                <div class="text">
+                    <h2>TeamViewer Germany GmbH</h2>
+                    <p><strong>Atualmente pertence ao Grupo TeamViewer AG, com sede principal em Göppingen, Alemanha.</strong></p>
+                    <p>Além da alemanha, existem bases em outras 16 localidades do globo.</p>
+                    <p>Mantem o controle com um design renovado e recursos de acesso e suporte unificados.</p>
+                </div>
+                <img src="assets/img/teamviewer-gp-office.jpg">
+            </div>
+            <div class="container" id="usuarios">
+                <img src="assets/img/usuarios.jpg">
+                <div class="text">
+                    <h2>Downloads</h2>
+                    <p><strong>Segundo dados divulgados pela própria empresa:</strong></p>
+                    <p>A plataforma foi instalada em mais de 2.5 bilhões de aparelhos, em todo o mundo. Além disso, o Software está disponivél em mais de 200 países.</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>

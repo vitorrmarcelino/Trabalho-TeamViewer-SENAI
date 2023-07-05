@@ -37,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(84, 84, 84);
+    color: rgb(96, 96, 96);
 }
 
 #btn-header{
@@ -72,7 +72,7 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 7vw 0px 7vw;
+    padding: 80px 7vw 120px 7vw;
 }
 
 #video{
@@ -84,7 +84,7 @@ nav a:hover{
     text-align: left;
 }
 
-.textop{
+#first-p{
     padding-top: 30px;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -114,4 +114,43 @@ nav a:hover{
 .btn:hover{
     background-color: #151c7b;
     transition: all 0.5s ease-in-out;
+}
+
+.titulo-centro{
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.img-text{
+    color: white;
+    width: 250px;
+    text-align: center;
+}
+
+.img-text h2{
+    padding: 15px 0px 5px 0px;
+}
+
+.fundo-branco{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.fundo-branco h1{
+    color: #050A52;
+    padding-top: 20px;
+}
+
+.fundo-branco h2{
+    color: #050A52;
+    font-size: 1.8em;
+}
+
+.text{
+    width: 400px;
+}
+
+.text p{
+    color: rgb(96, 96, 96);
+    padding: 7px 0px 7px 0px;
 }
