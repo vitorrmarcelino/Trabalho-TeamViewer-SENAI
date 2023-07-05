@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-    padding-right: 20vw;
+    padding-right: 15vw;
 }
 
 nav a{
@@ -29,7 +29,7 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 10vw 120px 10vw;
+    padding: 80px 7.5vw 120px 7.5vw;
 }
 
 #video{

@@ -13,7 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10vw;
+    padding-left: 7.5vw;
 }
 
 header img{
@@ -30,7 +30,7 @@ header img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 10vw;
+    margin-right: 7.5vw;
 }
 
 .bxs-right-arrow-alt{
