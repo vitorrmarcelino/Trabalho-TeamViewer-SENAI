@@ -5,11 +5,6 @@
     padding: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #050A52;
-}
-
 header{
     top: 0;
     position: sticky;
