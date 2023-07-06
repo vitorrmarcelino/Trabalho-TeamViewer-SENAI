@@ -10,6 +10,17 @@ body{
     background-color: #050A52;
 }
 
+header{
+    top: 0;
+    position: sticky;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7.5vw;
+}
+
 nav{
     padding-right: 15vw;
 }
